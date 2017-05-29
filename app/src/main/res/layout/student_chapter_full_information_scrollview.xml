@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_profile"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:singleLine="true"
+            android:text="Information"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white"></View>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Every member of your organization plays a key role in its ongoing growth and success. We ensure that you are introduced only to the best candidates who are committed to meeting your business objectives and taking your operations to the next level of performance. The right employees will have a significant impact on your productivity, efficiency, and revenue. They bring valuable skills to your team and help you achieve greater success over time."
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Every member of your organization plays a key role in its ongoing growth and success. We ensure that you are introduced only to the best candidates who are committed to meeting your business objectives and taking your operations to the next level of performance. The right employees will have a significant impact on your productivity, efficiency, and revenue. They bring valuable skills to your team and help you achieve greater success over time."
+            android:textColor="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/iv_hostel_name"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:alpha="0.8"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chapter3" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

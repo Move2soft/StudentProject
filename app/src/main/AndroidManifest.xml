@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.move2soft.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Branch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.StudentChapters"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OnlineBech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Wardens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ExecutiveWing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.WardenFullinformation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.EwFullinformation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.StudentChapterFullinformation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BranchTab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.SplashScreenAdd"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_ex_wing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.8"
+                    android:elevation="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hostel" />
+
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="8dp"
+                android:text="Executive Wing"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+          <LinearLayout
+              android:id="@+id/layout_stud_chap"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:elevation="5dp"
+              android:background="@drawable/shape"
+              android:orientation="vertical">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+
+                  <FrameLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+
+                      <ImageView
+                          android:id="@+id/iv_Image"
+                          android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:layout_gravity="center"
+                          android:alpha="0.8"
+                          android:elevation="5dp"
+                          android:scaleType="fitXY"
+                          android:src="@drawable/chapter3" />
+
+
+                  </FrameLayout>
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:padding="10dp"
+                      android:paddingLeft="15dp"
+                      android:paddingTop="8dp"
+                      android:text="Student Chapters"
+                      android:textColor="@color/black"
+                      android:textStyle="bold" />
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:id="@+id/layout_online_bech"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:elevation="5dp"
+              android:background="@drawable/shape"
+              android:orientation="vertical">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+
+                  <FrameLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+
+                      <ImageView
+                          android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:layout_gravity="center"
+                          android:alpha="0.8"
+                          android:elevation="5dp"
+                          android:scaleType="fitXY"
+                          android:src="@drawable/online2" />
+
+
+                  </FrameLayout>
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+                  <TextView
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:padding="10dp"
+                      android:paddingLeft="15dp"
+                      android:paddingTop="8dp"
+                      android:text="Online Bech"
+                      android:textColor="@color/black"
+                      android:textStyle="bold" />
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+          <LinearLayout
+              android:id="@+id/layout_baranch"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:elevation="5dp"
+              android:background="@drawable/shape"
+              android:orientation="vertical">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+
+                  <FrameLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+
+                      <ImageView
+                          android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:layout_gravity="center"
+                          android:alpha="0.8"
+                          android:elevation="5dp"
+                          android:scaleType="fitXY"
+                          android:src="@drawable/baranch4" />
+
+
+                  </FrameLayout>
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+                  <TextView
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:padding="10dp"
+                      android:paddingLeft="15dp"
+                      android:paddingTop="8dp"
+                      android:text="Branch"
+                      android:textColor="@color/black"
+                      android:textStyle="bold" />
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+          <LinearLayout
+              android:id="@+id/layout_wardens"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:elevation="5dp"
+              android:background="@drawable/shape"
+              android:orientation="vertical">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+
+                  <FrameLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+
+                      <ImageView
+                          android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:layout_gravity="center"
+                          android:alpha="0.8"
+                          android:elevation="5dp"
+                          android:scaleType="fitXY"
+                          android:src="@drawable/hostel" />
+
+
+                  </FrameLayout>
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:padding="10dp"
+                      android:paddingLeft="15dp"
+                      android:paddingTop="8dp"
+                      android:text="Wardens"
+                      android:textColor="@color/black"
+                      android:textStyle="bold" />
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+
+
+
+      </LinearLayout>
+    </ScrollView>
+</LinearLayout>

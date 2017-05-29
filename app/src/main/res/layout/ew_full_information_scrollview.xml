@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="90dp"
+                android:background="#8D6E63"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:elevation="5dp"
+                    android:background="@drawable/shape_profile"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_gravity="center"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:singleLine="true"
+                            android:layout_weight="0.3"
+                            android:text="Name:"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:layout_weight="0.7"
+                            android:singleLine="true"
+                            android:text="Dinesh N Nakum"
+                            android:textColor="@color/white"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="0dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:singleLine="true"
+                            android:layout_weight="0.3"
+                            android:text="Contact No:"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:layout_weight="0.7"
+                            android:singleLine="true"
+                            android:text="026-254-254-00"
+                            android:textColor="@color/white"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:singleLine="true"
+                            android:layout_weight="0.3"
+                            android:text="Email id:"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:layout_weight="0.7"
+                            android:singleLine="true"
+                            android:text="dinesh@gmail.com"
+                            android:textColor="@color/white"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape_profile"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:singleLine="true"
+                        android:text="Information"
+                        android:textColor="@color/white" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/white"></View>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="14dp"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Every member of your organization plays a key role in its ongoing growth and success. We ensure that you are introduced only to the best candidates who are committed to meeting your business objectives and taking your operations to the next level of performance. The right employees will have a significant impact on your productivity, efficiency, and revenue. They bring valuable skills to your team and help you achieve greater success over time."
+                        android:textColor="@color/white"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/shape_fullew"
+                    android:layout_height="140dp">
+
+                    <ImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/hostel"
+                        android:scaleType="fitXY"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
